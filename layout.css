@@ -32,5 +32,11 @@ body{
     text-align: left;
 }
 #genDiv{
-    min-width: 25%;
+    max-width: 100%;
+}
+@media (min-width: 620px){
+    .yt-frame{
+        width: 560px;
+        height: 315px;
+    }
 }
