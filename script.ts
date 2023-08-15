@@ -37,5 +37,5 @@ function genVideos(){
     }
 
     rndmNum = getRndInteger(0, arrayLinks.length - 1)
-    divEl.innerHTML = '<iframe id="genDiv" width="560" height="315" src="' + arrayLinks[rndmNum] + '"title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+    divEl.innerHTML = '<iframe id="genDiv" src="' + arrayLinks[rndmNum] + '"title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
 }
