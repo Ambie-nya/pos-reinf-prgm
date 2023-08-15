@@ -29,4 +29,5 @@ body{
 }
 #credit{
     opacity: 50%;
+    text-align: start;
 }
