@@ -13,7 +13,8 @@ body{
     border: none;
 }
 #title{
-    font-size:300%
+    font-size:300%;
+    text-align: center;
 }
 #generate{
     background-color: rgb(255, 255, 225);
