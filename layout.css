@@ -31,3 +31,6 @@ body{
     opacity: 50%;
     text-align: left;
 }
+#genDiv{
+    max-width: 100%;
+}
